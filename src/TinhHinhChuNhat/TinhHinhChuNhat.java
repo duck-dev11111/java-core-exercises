@@ -3,10 +3,10 @@ package TinhHinhChuNhat;
 public class TinhHinhChuNhat {
 
 	public static void main(String[] args) {
-		int chieudai = 100000;
-		int chieurong = 1000000;
-		int chuvi = (chieudai+chieurong)*2;
-		int dientich = chieudai*chieurong;
+		long chieudai = 1000000;
+		long chieurong = 10000000;
+		long chuvi = (chieudai+chieurong)*2;
+		long dientich = chieudai*chieurong;
 		System.out.println("chu vi hinh chu nhat :" + chuvi);
 		System.out.println("dien tich hinh chu nhat :" + dientich);
 	}
