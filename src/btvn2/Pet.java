@@ -1,4 +1,4 @@
-package btvn;
+package btvn2;
 
 public class Pet {
     

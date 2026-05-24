@@ -15,7 +15,7 @@ public class Book {
     public double tinhGiaBan() {
         return originalPrice * 1.2;}
     public void hienThi() {
-        System.out.println("\n--- THÔNG TIN SÁCH ---");
+        System.out.println("\n        THÔNG TIN SÁCH        ");
         System.out.println("Tiêu đề: " + title);
         System.out.println("Tác giả: " + author);
         System.out.println("Giá gốc: " + originalPrice);

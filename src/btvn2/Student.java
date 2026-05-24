@@ -1,4 +1,4 @@
-package Student;
+package btvn2;
 
 public class Student {
 	private String id;
@@ -10,16 +10,20 @@ public class Student {
 		this.name = name;
 		this.gpa = gpa;
 	}
+	public String rank() {
+		if (gpa >= 8.0) {
+			return "gioi";
+		} else if (gpa >= 6.5) {
+			return "kha";
+		} else {
+			return "trung binh";
+		}
+	}
 
 	public void display() {
-		System.out.println("sinh vien" + name + "xep loai");
-		if (gpa >= 8.0) {
-			System.out.println(" gioi ");
-		} else if (gpa >= 6.5) {
-			System.out.println(" kha ");
-		} else {
-			System.out.println("trung binh");
-		}
+		System.out.println("điểm : " + gpa);
+		System.out.println("xếp loại : " + rank());
+		
 	}
 
 	public static void main(String[] args) {
