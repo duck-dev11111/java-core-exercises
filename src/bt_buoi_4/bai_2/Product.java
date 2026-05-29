@@ -1,4 +1,4 @@
-package bt4;
+package bt_buoi_4.bai_2;
 public class Product {
     private String productId;
     private String productName;

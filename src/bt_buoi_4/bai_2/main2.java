@@ -1,4 +1,4 @@
-package bt4;
+package bt_buoi_4.bai_2;
 public class main2 {
 	    public static void main(String[] args) {
 	        System.out.println("             1. KHỞI TẠO SẢN PHẨM (DỮ LIỆU SAI)         ");

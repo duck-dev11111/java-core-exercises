@@ -1,4 +1,4 @@
-package bt4;
+package bt_buoi_4.bai_1;
 
 public class Main {
 	public static void main(String[] args) {
